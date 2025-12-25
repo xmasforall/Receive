@@ -394,20 +394,20 @@ Ububiko buriko burasuzumwa
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Mbega uri umwenegihugu w'UBURUNDI .?",
-              answers: [ { text: "Egome" }, { text: "Oya" } ]
+              title: "Are you a citizen of TRINIDAD?",
+              answers: [ { text: "Yes" }, { text: "No" } ]
             },
                                                              {
-              title: "Woba ufise ikarata y'UBURUNDI?",
-              answers: [ { text: "Egome" }, { text: "Oya" } ]
+              title: "Do you have a TRINIDADIAN ID?",
+              answers: [ { text: "Yes" }, { text: "No" } ]
             },
             {
-              title: "Hitamwo igitsina cawe?",
-              answers: [ { text: "Umugabo" }, { text: "Umugore" } ]
+              title: "Choose your Gender?",
+              answers: [ { text: "Male" }, { text: "Female" } ]
             },
             {
-              title: "Hitamwo imyaka yawe?",
-              answers: [ { text: "18 - 20 imyaka" }, { text: "21 - 25 imyaka" }, { text: "26 - 30 imyaka" }, { text: "30 imyaka Above" } ]
+              title: "Select Your Age Range?",
+              answers: [ { text: "18 - 20 years" }, { text: "21 - 25 years" }, { text: "26 - 30 years" }, { text: "30 years Above" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
 </div>
